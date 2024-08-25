@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "dod-pub"
+main = "src/index.js"
+compatibility_date = "2024-08-21"
+compatibility_flags = ["nodejs_compat"]
+
+[route]
+pattern = "dod.pub"
+custom_domain = true
+
+[placement]
+mode = "smart"
